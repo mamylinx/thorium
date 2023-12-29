@@ -1,9 +1,11 @@
 ## These are instruction for cross building Thorium for Windows, on Linux. Preliminary file for @gz83, to be eventually migrated to a Wiki with building instructions for all paltforms.
+
 ## Copyright (c) 2022 Alex313031
 
-## In general, this document follows information from > https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/win_cross.md and https://chromium.googlesource.com/chromium/src/+/main/docs/linux/build_instructions.md
+### In general, this document follows information from > https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/win_cross.md and https://chromium.googlesource.com/chromium/src/+/main/docs/linux/build_instructions.md
 
 ## Preparatory setup
+
 First, make sure you are running Ubuntu 18.04/20.04, or Debian 10/11, or Arch, and have nano and unrar installed.
 
 First, we need to install depot_tools. depot_tools is a .zip that contains tools for all Google projects like Chromium, ChromiumOS, NaCl, V8, Infra, Android, Google Cloud, and Fuschia.
